@@ -1,8 +1,12 @@
 fn main() {
     let s = String::from("hello");
-    let s1 = s.clone();
+    let mut s1 = s.clone();
 
     takes_ownership(s);
+
+    s1.push_str(" joker");
+
+    println!("{}", s1);
 
     println!("main ==> {}", s1);
 

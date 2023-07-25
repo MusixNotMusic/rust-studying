@@ -1,9 +1,10 @@
 # rust-studying
 ## Studying website
-https://kaisery.github.io/trpl-zh-cn/ch01-03-hello-cargo.html
+https://rustwiki.org/zh-CN/book/ch06-03-if-let.html
 
 ## create rust
 ```bash
 cargo new dir
 cd dir
+cargo run
 ```

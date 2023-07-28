@@ -25,6 +25,7 @@ fn main() {
         let mut map = HashMap::new();
         map.insert(field_name, field_value);
         println!("map ==> {:?}", map);
-
     }
+
+    {}
 }
